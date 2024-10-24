@@ -18,11 +18,7 @@ export const WeSection = () => {
           </p>
         </div>
       </Container>
-      <img
-        src="../../../public/assets/weare.webp"
-        alt=""
-        className="w-full object-cover"
-      />
+      <img src="/assets/weare.webp" alt="" className="w-full object-cover" />
     </div>
   );
 };

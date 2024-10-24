@@ -9,12 +9,7 @@ export const Navbar = () => {
         <nav className="relative flex items-center justify-between py-4">
           <div className="">
             <a href={"/"} className="flex gap-1 md:gap-2">
-              <img
-                src="../../public/assets/icon.svg"
-                alt="logo"
-                width="60"
-                height="54"
-              />
+              <img src="/assets/icon.svg" alt="logo" width="60" height="54" />
             </a>
           </div>
           <NavLinks />
