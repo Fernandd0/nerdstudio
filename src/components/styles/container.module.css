@@ -43,3 +43,9 @@
     max-width: 1240px;
   }
 }
+
+@media (min-width: 1536px) {
+  .e_container {
+    max-width: 1350px;
+  }
+}
