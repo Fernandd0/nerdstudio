@@ -59,7 +59,6 @@ export const PortfolioSection = () => {
           pagination={{ clickable: true }}
           className="w-full"
         >
-          {/* Slides */}
           <SwiperSlide>
             <div className="bg-gray-200 h-96 flex items-center justify-center">
               <h4>Slide 1</h4>
