@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { HeroSection } from './_components/HeroSection';
+import { PortfolioSection } from './_components/PortfolioSection';
 import { ServicesSection } from './_components/ServicesSection';
 import { WeSection } from './_components/WeSection';
 ---
@@ -9,6 +10,7 @@ import { WeSection } from './_components/WeSection';
 	<HeroSection/>
 	<WeSection/>
 	<ServicesSection/>
+	<PortfolioSection client:load/>
 </Layout>
 
 
