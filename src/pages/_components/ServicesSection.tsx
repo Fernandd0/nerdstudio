@@ -3,7 +3,7 @@ import { ServiceComponent } from "./ServiceComponent";
 
 export const ServicesSection = () => {
   return (
-    <section className="mt-[100px]" id="services">
+    <section className="pt-[150px]" id="services">
       <h3 className="italic text-[92px] font-epilogue uppercase text-black leading-none text-center mb-8">
         WHAT <span className="font-extrabold">WE DO</span>
       </h3>

@@ -2,16 +2,17 @@ import { Container } from "../../components/ui/Container";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.css";
 import { Pagination, Navigation } from "swiper/modules";
+import { PortfolioSlide } from "./PortfolioSlide";
 
 export const PortfolioSection = () => {
   return (
-    <section id="portfolio" className="mt-[100px]">
+    <section id="portfolio" className="pt-[150px]">
       <Container>
         <div className="flex items-center justify-start gap-16 mb-8">
           <h3 className="italic text-[92px] font-epilogue uppercase text-black leading-none">
             PORTAFOLIO
           </h3>
-          <div className="flex items-center gap-6 relative">
+          <div className="flex items-center gap-12 relative">
             <button className="swiper-button-prev  w-[38px] h-[38px] md:w-[48px] md:h-[48px] z-[2] after:!content-none !static !mt-0 group">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -50,39 +51,25 @@ export const PortfolioSection = () => {
 
         <Swiper
           modules={[Navigation, Pagination]}
-          spaceBetween={30}
+          spaceBetween={20}
           slidesPerView={3}
           navigation={{
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           }}
-          pagination={{ clickable: true }}
           className="w-full"
         >
           <SwiperSlide>
-            <div className="bg-gray-200 h-96 flex items-center justify-center">
-              <h4>Slide 1</h4>
-            </div>
+            <PortfolioSlide></PortfolioSlide>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-gray-300 h-96 flex items-center justify-center">
-              <h4>Slide 2</h4>
-            </div>
+            <PortfolioSlide></PortfolioSlide>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-gray-400 h-96 flex items-center justify-center">
-              <h4>Slide 3</h4>
-            </div>
+            <PortfolioSlide></PortfolioSlide>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-gray-500 h-96 flex items-center justify-center">
-              <h4>Slide 4</h4>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-gray-600 h-96 flex items-center justify-center">
-              <h4>Slide 5</h4>
-            </div>
+            <PortfolioSlide></PortfolioSlide>
           </SwiperSlide>
         </Swiper>
       </Container>

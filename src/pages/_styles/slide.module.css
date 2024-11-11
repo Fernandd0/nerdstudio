@@ -1,0 +1,15 @@
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slide 5s linear infinite;
+}

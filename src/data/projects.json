@@ -1,0 +1,32 @@
+[
+  {
+    "imgPath": "/assets/p1.webp",
+    "projectName": "Sistema de Inventario",
+    "categories": ["Web", "E-commerce", "Administración"]
+  },
+  {
+    "imgPath": "/assets/p2.webp",
+    "projectName": "Aplicación Móvil de Fitness",
+    "categories": ["Móvil", "Salud", "Bienestar"]
+  },
+  {
+    "imgPath": "/assets/p3.webp",
+    "projectName": "Dashboard de Análisis de Datos",
+    "categories": ["Data Science", "Análisis", "Dashboard"]
+  },
+  {
+    "imgPath": "/assets/p1.webp",
+    "projectName": "Sistema de Inventario",
+    "categories": ["Web", "E-commerce", "Administración"]
+  },
+  {
+    "imgPath": "/assets/p2.webp",
+    "projectName": "Aplicación Móvil de Fitness",
+    "categories": ["Móvil", "Salud", "Bienestar"]
+  },
+  {
+    "imgPath": "/assets/p3.webp",
+    "projectName": "Dashboard de Análisis de Datos",
+    "categories": ["Data Science", "Análisis", "Dashboard"]
+  }
+]

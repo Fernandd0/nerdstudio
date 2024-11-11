@@ -2,7 +2,7 @@ import { Container } from "../../components/ui/Container";
 
 export const WeSection = () => {
   return (
-    <section className="mt-[100px]">
+    <section className="pt-[150px]">
       <Container>
         <h3 className="italic text-[92px] font-epilogue uppercase text-black leading-none text-center mb-8">
           WHO <span className="font-extrabold">WE ARE</span>
