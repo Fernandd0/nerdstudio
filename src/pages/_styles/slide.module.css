@@ -3,13 +3,17 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-50%);
   }
 }
 
 .animate-slide {
   display: flex;
   white-space: nowrap;
-  overflow: hidden;
-  animation: slide 5s linear infinite;
+  animation: slide 10s linear infinite;
+}
+
+.flex {
+  /* Asegúrate de que el contenedor ocupe al menos el doble de ancho */
+  min-width: 300%;
 }
